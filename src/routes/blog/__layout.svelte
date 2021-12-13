@@ -2,16 +2,15 @@
   import Nav from "$lib/Nav.svelte";
 </script>
 
-
 <div class="container">
-  <Nav/>
+  <!-- <Nav/> -->
   <slot/>
 </div>
 
 
 <style>
   .container {
-    height: 100vh;
-    background-color: lightgoldenrodyellow;
+    width: 80%;
+    margin: 10px auto;
   }
 </style>
